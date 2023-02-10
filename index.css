@@ -1,0 +1,71 @@
+body {
+    background-color: #F5F5DC;
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.header-item {
+    display: flex;
+    align-items: center;
+}
+
+.gold-button {
+    background-color: #8B4513;
+    color: #FFFFFF;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.gold-button:hover {
+    background-color: #CD853F;
+}
+
+.user-upgrades {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.user-upgrades button {
+    background-color: #FFFFFF;
+    color: #8B4513;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: 1px solid #8B4513;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.user-upgrades button:hover {
+    background-color: #8B4513;
+    color: #FFFFFF;
+}
+
+.inventory {
+    margin-bottom: 20px;
+}
+
+.inventory label {
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.inventory-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.inventory-list li {
+    margin-bottom: 10px;
+}
